@@ -1,0 +1,82 @@
+.skill {
+  padding: 155px 0;
+  background-image: url("../img/skill-bg.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 432px) calc(50% + 30px);
+}
+
+.skill__heading {
+  position: relative;
+  font-size: 68px;
+  letter-spacing: 8px;
+  color: #ff0000;
+  font-weight: 800;
+  font-family: "Core Sans E";
+  text-align: center;
+  margin-bottom: 100px;
+  &::before {
+    width: 150%;
+    display: inline-block;
+    content: "ты приобретёшь";
+    font-size: 180px;
+    line-height: 20px;
+    color: #32383f;
+    font-family: "Besom";
+    text-align: center;
+    opacity: 0.1;
+    position: absolute;
+    top: 60px;
+    left: -290px;
+  }
+}
+
+.skill__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.skill__item {
+  font-size: 16px;
+  line-height: 24px;
+  color: #4d4d4d;
+  font-family: "Core Sans E";
+  text-align: left;
+
+  &:nth-child(1) {
+    max-width: 126px;
+    width: 100%;
+    margin-bottom: 82px;
+    margin-left: 645px;
+  }
+
+  &:nth-child(2) {
+    max-width: 196px;
+    width: 100%;
+    margin-bottom: 80px;
+    margin-left: 745px;
+  }
+
+  &:nth-child(3) {
+    max-width: 173px;
+    width: 100%;
+    margin-bottom: 114px;
+  }
+
+  &:nth-child(4) {
+    max-width: 217px;
+    width: 100%;
+    margin-bottom: 101px;
+  }
+
+  &:nth-child(5) {
+    max-width: 217px;
+    width: 100%;
+    margin-bottom: 108px;
+  }
+}
+
+.skill__item-text {
+
+}

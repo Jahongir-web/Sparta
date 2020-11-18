@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
 ========================================================================== */
@@ -424,6 +425,7 @@ body {
   font-family: "Besom", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  background-color: #fff;
 }
 
 img {
@@ -448,5 +450,150 @@ img {
   margin-right: auto;
   padding-left: 25px;
   padding-right: 25px;
+}
+
+.red-btn {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-weight: 800;
+  font-family: "Core Sans E";
+  text-align: right;
+  padding: 22px 105px  38px 105px;
+  background-color: transparent;
+  background-image: url("../img/btn-bg.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  cursor: pointer;
+}
+
+.try-section {
+  background-image: url("../img/try-section.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1920px 370px;
+  padding: 50px 0;
+}
+
+.try-section__content {
+  margin: 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.try-section__heading {
+  padding: 0;
+  margin: 0;
+  padding-top: 20px;
+  font-size: 121px;
+  color: #ff0000;
+  font-family: "Besom";
+  text-align: right;
+  font-weight: normal;
+  margin-right: 43px;
+}
+
+.try-section__text {
+  max-width: 322px;
+  width: 100%;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  font-size: 41px;
+  line-height: 41px;
+  color: #ffffff;
+  font-weight: 800;
+  font-family: "Core Sans E";
+  margin-right: 20px;
+}
+
+.try-section__btn {
+  max-width: 307px;
+  width: 100%;
+  margin-left: auto;
+}
+
+.skill {
+  padding: 155px 0;
+  background-image: url("../img/skill-bg.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 432px) calc(50% + 30px);
+}
+
+.skill__heading {
+  position: relative;
+  font-size: 68px;
+  letter-spacing: 8px;
+  color: #ff0000;
+  font-weight: 800;
+  font-family: "Core Sans E";
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.skill__heading::before {
+  width: 150%;
+  display: inline-block;
+  content: "ты приобретёшь";
+  font-size: 180px;
+  line-height: 20px;
+  color: #32383f;
+  font-family: "Besom";
+  text-align: center;
+  opacity: 0.1;
+  position: absolute;
+  top: 60px;
+  left: -290px;
+}
+
+.skill__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skill__item {
+  font-size: 16px;
+  line-height: 24px;
+  color: #4d4d4d;
+  font-family: "Core Sans E";
+  text-align: left;
+}
+
+.skill__item:nth-child(1) {
+  max-width: 126px;
+  width: 100%;
+  margin-bottom: 82px;
+  margin-left: 645px;
+}
+
+.skill__item:nth-child(2) {
+  max-width: 196px;
+  width: 100%;
+  margin-bottom: 80px;
+  margin-left: 745px;
+}
+
+.skill__item:nth-child(3) {
+  max-width: 173px;
+  width: 100%;
+  margin-bottom: 114px;
+}
+
+.skill__item:nth-child(4) {
+  max-width: 217px;
+  width: 100%;
+  margin-bottom: 101px;
+}
+
+.skill__item:nth-child(5) {
+  max-width: 217px;
+  width: 100%;
+  margin-bottom: 108px;
 }
 /*# sourceMappingURL=styles.css.map */

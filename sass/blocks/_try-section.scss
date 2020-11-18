@@ -1,0 +1,45 @@
+.try-section {
+  background-image: url("../img/try-section.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1920px 370px;
+  padding: 50px 0;
+}
+
+.try-section__content {
+  margin: 40px 0;
+  display: flex;
+  align-items: center;
+}
+
+.try-section__heading {
+  padding: 0;
+  margin: 0;
+  padding-top: 20px;
+  font-size: 121px;
+  color: #ff0000;
+  font-family: "Besom";
+  text-align: right;
+  font-weight: normal;
+  margin-right: 43px;
+}
+
+.try-section__text {
+  max-width: 322px;
+  width: 100%;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  font-size: 41px;
+  line-height: 41px;
+  color: #ffffff;
+  font-weight: 800;
+  font-family: "Core Sans E";
+  margin-right: 20px;
+}
+
+.try-section__btn {
+  max-width: 307px;
+  width: 100%;
+  margin-left: auto;
+}

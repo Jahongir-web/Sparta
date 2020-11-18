@@ -1,0 +1,18 @@
+.red-btn {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-weight: 800;
+  font-family: "Core Sans E";
+  text-align: right;
+  padding: 22px 105px  38px 105px ;
+  background-color: transparent;
+  background-image: url("../img/btn-bg.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  cursor: pointer;
+  &:hover {
+
+  }
+}
