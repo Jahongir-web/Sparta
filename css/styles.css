@@ -522,7 +522,7 @@ img {
   padding: 155px 0;
   background-image: url("../img/skill-bg.svg");
   background-repeat: no-repeat;
-  background-position: calc(50% - 432px) calc(50% + 30px);
+  background-position: calc(50% - 432px) 295px;
 }
 
 .skill__heading {
@@ -568,32 +568,43 @@ img {
 .skill__item:nth-child(1) {
   max-width: 126px;
   width: 100%;
-  margin-bottom: 82px;
+  margin-bottom: 75px;
   margin-left: 645px;
 }
 
 .skill__item:nth-child(2) {
-  max-width: 196px;
+  max-width: 206px;
   width: 100%;
-  margin-bottom: 80px;
-  margin-left: 745px;
+  margin-bottom: 70px;
+  margin-left: 750px;
 }
 
 .skill__item:nth-child(3) {
   max-width: 173px;
   width: 100%;
-  margin-bottom: 114px;
+  margin-bottom: 105px;
+  margin-left: 825px;
 }
 
 .skill__item:nth-child(4) {
-  max-width: 217px;
+  max-width: 220px;
   width: 100%;
-  margin-bottom: 101px;
+  margin-bottom: 90px;
+  margin-left: 880px;
 }
 
 .skill__item:nth-child(5) {
-  max-width: 217px;
+  max-width: 220px;
   width: 100%;
   margin-bottom: 108px;
+  margin-left: 900px;
+}
+
+.skill__item-text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #4d4d4d;
+  font-family: "Core Sans E";
+  text-align: left;
 }
 /*# sourceMappingURL=styles.css.map */
