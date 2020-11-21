@@ -1,5 +1,5 @@
 .try-section {
-  background-image: url("../img/try-section.svg");
+  background-image: url("../img/try-section.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 1920px 370px;
@@ -39,7 +39,11 @@
 }
 
 .try-section__btn {
-  max-width: 307px;
-  width: 100%;
   margin-left: auto;
+}
+
+@include retina-bg {
+  .try-section {
+    background-image: url("../img/try-section@2x.png");
+  }
 }

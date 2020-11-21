@@ -1,11 +1,13 @@
 .skill {
   padding: 155px 0;
-  background-image: url("../img/skill-bg.svg");
+  background-image: url("../img/skill-bg.png");
   background-repeat: no-repeat;
   background-position: calc(50% - 432px) 295px;
+
 }
 
 .skill__heading {
+  text-transform: uppercase;
   position: relative;
   font-size: 68px;
   letter-spacing: 8px;
@@ -86,4 +88,10 @@
   color: #4d4d4d;
   font-family: "Core Sans E";
   text-align: left;
+}
+
+@include retina-bg {
+  .skill {
+    background-image: url("../img/skill-bg@2x.png");
+  }
 }

@@ -1,0 +1,16 @@
+.course-img {
+  padding-top: 574px;
+  width: 100%;
+  height: 574px;
+
+  background-image: url("../img/course-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+@include retina-bg {
+  .course-img {
+    background-image: url("../img/course@2x.jpg");
+  }
+}

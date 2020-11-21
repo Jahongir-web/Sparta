@@ -1,0 +1,133 @@
+.coach-section {
+
+}
+
+.coach-section__heading {
+  text-transform: uppercase;
+  position: relative;
+  font-size: 68px;
+  letter-spacing: 1px;
+  color: #ff0000;
+  font-weight: 800;
+  font-family: "Core Sans E";
+  text-align: center;
+  margin-bottom: 100px;
+  &::before {
+    width: 151%;
+    display: inline-block;
+    content: "Инструктор";
+    font-size: 180px;
+    line-height: 20px;
+    font-weight: normal;
+    color: #32383f;
+    letter-spacing: 5px;
+    font-family: "Besom";
+    text-align: center;
+    opacity: 0.1;
+    position: absolute;
+    top: 60px;
+    left: -290px;
+  }
+}
+
+
+.coach-section__content {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 93px;
+}
+
+.coach-section__box-left {
+
+}
+
+.coach-section__box-middl {
+  width: 489px;
+  background-image: url(../../img/coach-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding-left: 62px;
+  position: relative;
+  margin-left: 40px;
+}
+
+.coach-section__coach-name {
+  font-size: 24px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: #ff0000;
+  font-weight: bold;
+  font-family: "Core Sans E";
+  position: absolute;
+  top: -90px;
+  left: 10px;
+}
+
+.box-middl__list {
+  max-width: 337px;
+  width: 100%;
+  @include reset-list;
+}
+
+.box-right__list {
+  @include reset-list;
+}
+
+.box-middl__item {
+  margin-bottom: 25px;
+}
+
+.big-item {
+  margin-bottom: 35px;
+}
+
+.coach-section__text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #4d4d4d;
+  font-family: "Core Sans E";
+}
+
+.coach-section__box-right {
+  width: 234px;
+  margin-left: auto;
+}
+
+.coach-section__list {
+  @include reset-list;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 66px;
+}
+
+.coach-section__red-number {
+  font-size: 120px;
+  letter-spacing: 6px;
+  line-height: 17px;
+  color: #ff0000;
+  font-family: "Besom";
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.coach-section__item {
+  text-align: center;
+  &:nth-child(1) {
+    width: 194px;
+  }
+
+  &:nth-child(2) {
+    width: 168px;
+  }
+
+  &:nth-child(3) {
+    width: 157px;
+  }
+
+  &:nth-child(4) {
+    width: 147px;
+  }
+}
